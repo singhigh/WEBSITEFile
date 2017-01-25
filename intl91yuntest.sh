@@ -47,7 +47,6 @@ speed() {
     speed_test 'http://speedtest.SAO01.softlayer.com/downloads/test100.zip' 'Softlayer, Sao Paulo, BR'
     speed_test 'http://speedtest.hkg02.softlayer.com/downloads/test100.zip' 'Softlayer, HongKong, CN'
     speed_test 'http://speedtest-blr1.digitalocean.com/100mb.test' 'Digitalocean, Bengaluru, IN'
-    speed_test 'http://61.157.118.78/download/300.data' 'Suining Telecom, Sichuan, CN'
     speed_test 'http://101.95.50.18/test.img' 'Shanghai Telecom, Shanghai, CN'
 }
 
