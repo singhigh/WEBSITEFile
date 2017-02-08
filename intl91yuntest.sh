@@ -36,17 +36,15 @@ speed_test() {
 
 speed() {
     speed_test 'http://cachefly.cachefly.net/100mb.test' 'CacheFly'
-    speed_test 'http://speedtest.tokyo.linode.com/100MB-tokyo.bin' 'Linode, Tokyo, JP'
     speed_test 'http://speedtest.singapore.linode.com/100MB-singapore.bin' 'Linode, Singapore, SG'
-    speed_test 'http://speedtest.london.linode.com/100MB-london.bin' 'Linode, London, UK'
-    speed_test 'http://speedtest.frankfurt.linode.com/100MB-frankfurt.bin' 'Linode, Frankfurt, DE'
-    speed_test 'http://speedtest.fremont.linode.com/100MB-fremont.bin' 'Linode, Fremont, CA'
-    speed_test 'http://speedtest.dal05.softlayer.com/downloads/test100.zip' 'Softlayer, Dallas, TX'
-    speed_test 'http://speedtest.sea01.softlayer.com/downloads/test100.zip' 'Softlayer, Seattle, WA'
-    speed_test 'http://speedtest.MEL01.softlayer.com/downloads/test100.zip' 'Softlayer, Melbourne, AU'
-    speed_test 'http://speedtest.SAO01.softlayer.com/downloads/test100.zip' 'Softlayer, Sao Paulo, BR'
-    speed_test 'http://speedtest.hkg02.softlayer.com/downloads/test100.zip' 'Softlayer, HongKong, CN'
-    speed_test 'http://speedtest-blr1.digitalocean.com/100mb.test' 'Digitalocean, Bengaluru, IN'
+    speed_test 'http://speedtest.fra02.softlayer.com/downloads/test.zip' 'Softlayer, Frankfurt, DE'
+    speed_test 'http://speedtest.tok02.softlayer.com/downloads/test10.zip' 'Softlayer, Tokyo, JP'
+    speed_test 'http://speedtest.dal01.softlayer.com/downloads/test10.zip' 'Softlayer, Dallas, TX'
+    speed_test 'http://speedtest.sea01.softlayer.com/downloads/test10.zip' 'Softlayer, Seattle, WA'
+    speed_test 'http://speedtest.MEL01.softlayer.com/downloads/test10.zip' 'Softlayer, Melbourne, AU'
+    speed_test 'http://speedtest.SAO01.softlayer.com/downloads/test10.zip' 'Softlayer, Sao Paulo, BR'
+    speed_test 'http://speedtest.hkg02.softlayer.com/downloads/test.zip' 'Softlayer, HongKong, CN'
+    speed_test 'http://speedtest-blr1.digitalocean.com/10mb.test' 'Digitalocean, Bengaluru, IN'
     speed_test 'http://101.95.50.18/test.img' 'Shanghai Telecom, Shanghai, CN'
 }
 
